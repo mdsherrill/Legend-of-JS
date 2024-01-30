@@ -5,15 +5,15 @@ Here is how to launch and play the 2D Dungeon delver Legend of Java! This game i
 ## Controls
 The following table is a list of the controls.
 
-| **Action**                      | **Keybind**       |
-|--------------                   |:-----------------:|
-| Move Up                         | `Arrow Key Up`    |
-| Move Left                       | `Arrow Key Left`  |
-| Move Right                      | `Arrow Key Right` |
-| Move Down                       | `Arrow Key Down`  |
-| Edit Mode                       | `E`               |
+| **Action**       | **Keybind**       |
+|--------------    |:-----------------:|
+| Move Up          | `Arrow Key Up`    |
+| Move Left        | `Arrow Key Left`  |
+| Move Right       | `Arrow Key Right` |
+| Move Down        | `Arrow Key Down`  |
+| Edit Mode        | `E`               |
 | Pot Mode (must be in edit mode) | `P`|
-| Shoot Boomerang                 | `Ctrl` |
-| Save Game                       | `S`|
-| Load Game                       | `L` |
-| Exit Game                       | `Q` or `Esc` |
+| Shoot Boomerang  | `Ctrl` |
+| Save Game        | `S`|
+| Load Game        | `L` |
+| Exit Game        | `Q` or `Esc` |
