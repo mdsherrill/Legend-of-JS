@@ -32,7 +32,7 @@ public class Link extends Sprite {
     BufferedImage link_images[];
     
     public Link(int x, int y)
-    {
+    {   
         this.x = x;
         this.y = y;
         this.w = 18*2;
@@ -59,29 +59,17 @@ public class Link extends Sprite {
             if(link_images[i] == null){
                 if(i < 8){
                     link_images[i] = View.loadImage("newLinkSprites/linkRight" + i + ".png");
-                    // System.out.println("Loaded newLinkSprites/linkRight" + i + ".png");
-                    System.out.println("self.link_images.append(pygame.transform.scale2x(pygame.image.load('newLinkSprites/linkRight" + i + ".png')))");
                 }
                 if(i >= 8 && i < 16){
                     link_images[i] = View.loadImage("newLinkSprites/linkLeft" + (i-8) + ".png");
-                    // System.out.println("newLinkSprites/linkLeft" + (i-8) + ".png");
-                    System.out.println("self.link_images.append(pygame.transform.scale2x(pygame.image.load('newLinkSprites/linkLeft" + (i-8) + ".png')))");
-
                 }
                 if(i >= 16 && i < 24){
                     link_images[i] = View.loadImage("newLinkSprites/linkUp" + (i-16) + ".png");
-                    // System.out.println("newLinkSprites/linkUp" + (i-16) + ".png");
-                    System.out.println("self.link_images.append(pygame.transform.scale2x(pygame.image.load('newLinkSprites/linkUp" + (i-16) + ".png')))");
-
                 }
                 if(i >= 24 && i < 32){
                     link_images[i] = View.loadImage("newLinkSprites/linkDown" + (i-24) + ".png");
-                    // System.out.println("newLinkSprites/linkDown" + (i-24) + ".png");
-                    System.out.println("self.link_images.append(pygame.transform.scale2x(pygame.image.load('newLinkSprites/linkDown" + (i-24) + ".png')))");
-
                 }
             }
-            // System.out.println("self.link_images.append(pygame.image.load(" + ));
         }
     }
 

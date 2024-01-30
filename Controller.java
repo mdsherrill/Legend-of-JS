@@ -103,8 +103,7 @@ class Controller implements MouseListener, KeyListener
 				case KeyEvent.VK_LEFT: moveLeft = false; break;
 				case KeyEvent.VK_UP: moveUp = false; break;
 				case KeyEvent.VK_DOWN: moveDown = false; break;
-				case KeyEvent.VK_CONTROL:
-				model.launchBoomerang();
+				case KeyEvent.VK_CONTROL: model.launchBoomerang();
 				break;
 			}
 		if(editMode){
