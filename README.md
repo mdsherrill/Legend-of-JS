@@ -1,5 +1,5 @@
 # Legend of Java
-Here is how to launch and play the 2D Dungeon delver Legend of Java! This game is remnicient of the Legend of Zelda using sprites from the Game Boy Advance.
+Here is how to launch and play the 2D Dungeon delver Legend of Java! This game is remnicient of the Legend of Zelda: Link to the Past using sprites from the Game Boy Advance, and using sprites from that game.
 
 > This is a work in progress, so please bear with the process! Please check back regularly here for updates.
 ## Controls
